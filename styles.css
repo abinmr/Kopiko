@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* background-color: #fff; */
+    color: #fff;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3.125rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: #b7b7b7;
+    font-family: serif;
+}
+
+.heading:hover {
+    color: #db4f3d;
+}
+
+.title {
+    font-size: 0.85rem;
+    letter-spacing: 5px;
+    color: #b7b7b7;
+    text-transform: uppercase;
+}
+
+.divider {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.navbar {
+    width: 75%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-inline: auto;
+    border-top: 0.5px solid #fff;
+    margin-top: 3rem;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.nav-items li a:hover {
+    color: #db4f3d;
+}
+
+.home {
+    color: #db4f3d !important;
+}
+
+.coffee-cup {
+    width: 100%;
+    object-fit: contain;
+}
+
+.details {
+    text-align: center;
+    margin-top: 14rem;
+}
+
+.intro {
+    width: 1150px;
+    margin-inline: auto;
+    font-size: 22px;
+    color: #7a7a7a;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    margin-bottom: 2rem;
+}
+
+.product-detail {
+    font-size: 22px;
+    color: #7a7a7a;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    margin-bottom: 4rem;
+}
+
+.footer {
+    margin-top: 10rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 10rem;
+}
+
+.socials img {
+    height: 40px;
+}
+
+.copyright {
+    margin-bottom: 10rem;
+}
+
+.copyright {
+    color: #8a8a8a;
+    text-align: center;
+    text-decoration: none;
+}
+
+.copyright span {
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.copyright span:hover {
+    color: #db4f3d;
+    text-decoration: underline;
+}
